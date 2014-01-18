@@ -127,9 +127,14 @@ public abstract class NotificationState {
     }
 
     /**
-     * Gets the appropriate icon needed for notifications.
+     * Gets the normal icons needed for notifications.
      */
     public abstract int getIcon();
+
+    /**
+     * Gets the breathing icons needed for notifications.
+     */
+    public abstract int getBreathIcon();
 
     /**
      * @return the type of notification that should be used from {@link RealTimeChatNotifications}
